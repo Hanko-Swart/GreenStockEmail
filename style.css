@@ -1,0 +1,750 @@
+body {
+    /* font-family: open-sans, sans-serif; */
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+
+.header {
+    background-color: #162132;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.main-content {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header .logo {
+    width: 50px;
+    /* Adjust the size as needed */
+    margin-right: 10px;
+}
+
+.header .heading-milestone {
+    color: white;
+    /* Adjust text color */
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.financial-data,
+.esg-impact {
+    /* padding: 20px 0; */
+    border-bottom: 2px solid #e0e0e0;
+}
+
+.financial-data {
+    background-color: #0EDDA2;
+    color: #162132;
+    text-align: center;
+    margin: 0;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.esg-impact {
+    background-color: #162132;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.impact-item {
+    color: #162132;
+}
+
+.impact-item-1 {
+    color: #00d1b2;
+}
+
+/* .heading-lifetime {
+
+    color: #162132;
+    padding: 10px;
+    text-align: center;
+    margin: 0;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+} */
+
+.heading-profit {
+    color: #162132;
+    padding: 10px;
+    text-align: center;
+    margin: 0;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+
+.col-styling {
+    line-height: 2rem;
+
+}
+
+/* .col-styling-1
+{
+    margin-right: 80px;
+} */
+
+.row-style {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.heading-lifeime {
+    color: #162132;
+    padding: 20px 0;
+    /* Add top and bottom space */
+    text-align: center;
+    margin: 0;
+    height: 60px;
+    /* Adjust height if needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.heading-esg {
+    color: #fff;
+    /* Assuming white for contrast with dark background */
+    padding: 20px 0;
+    /* Add top and bottom space */
+    text-align: center;
+    margin: 0;
+    height: 70px;
+    /* Adjust height if needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+
+}
+
+
+.paragraph-style {
+    font-weight: bold;
+}
+
+.amount-style {
+    font-weight: bold;
+    font-size: 48px
+}
+
+.lifetime-profit {
+    text-align: center;
+    margin: 20px 0;
+
+
+}
+
+.heading-percentage {
+    color: #162132;
+    padding: 10px;
+    text-align: center;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+}
+
+.paragraph-percentage {
+    color: #162132;
+    padding: 10px;
+    text-align: center;
+    margin: 0;
+
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.lifetime-profit .amount {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.chart .year-bar {
+    background-color: #00d1b2;
+    color: white;
+    padding: 5px;
+    margin: 10px 0;
+}
+
+.esg-impact .impact-details {
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+/* Remove default margin and padding for images and text */
+.row.no-gap {
+    padding: 10px;
+}
+
+.row.no-gap .col {
+    margin: 0;
+    /* Remove any column margins */
+    padding: 0;
+    /* Remove any column padding */
+    /* display: flex; */
+    align-items: center;
+    /* Center content vertically */
+}
+
+/* Adjust spacing around images and text content */
+.image-fluid {
+    margin-right: 10px;
+    /* Adjust the spacing as needed */
+    margin-bottom: 0;
+    /* Reduce the gap below the image */
+}
+
+.impact-details {
+    margin-top: -5px;
+}
+
+.impact-details .left-section,
+.impact-details .right-section {
+    width: 50%;
+    padding: 20px;
+}
+
+.footer {
+    color: black;
+    padding: 0;
+    text-align: center;
+}
+
+.footer-paragraph-1 {
+    color: #162132;
+    font-weight: bolder;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.footer .footer-details {
+    display: flex;
+    /* justify-content: space-between; */
+    /* padding-top: 20px; */
+    color: white;
+}
+
+
+
+.footer .footer-box {
+    width: 40%;
+    background-color: #162132;
+    padding: 40px;
+    color: white;
+    height: auto;
+    padding-bottom: 10px;
+}
+
+.footer-box-1 {
+    color: #162132;
+    width: 40%;
+    background-color: #0EDDA2;
+    padding: 40px;
+    height: auto;
+    padding-bottom: 10px;
+}
+
+
+
+.footer-box-paragraph {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footer-box-1-paragraph {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* Center the chart */
+.chart-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    padding: 50px 0;
+    /* Optional: adjust padding to position the graph */
+}
+
+/* Ensure container allows the full width */
+.chart {
+    width: 60%;
+    /* Adjust width as needed for centering */
+    max-width: 60%;
+    /* Maintain the width proportion */
+    overflow: visible;
+    padding: 0;
+    /* Adjust padding to fine-tune positioning */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Horizontal and Vertical Lines */
+.chart-container::before,
+.chart-container::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-top: 1px dotted #ccc;
+    border-left: 1px dotted #ccc;
+    pointer-events: none;
+}
+
+.chart-container::before {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.chart-container::after {
+    left: 50px;
+    width: calc(100% - 50px);
+    transform: translateY(-50%);
+}
+
+/* Numbers on Top */
+.chart-container::before {
+    top: 0;
+    height: auto;
+    border-left: 0;
+    border-right: 0;
+}
+
+.chart-container::after {
+    top: 0;
+    height: auto;
+    border-top: 0;
+    border-bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+.chart-container::after::before {
+    content: "20";
+    position: relative;
+    left: 5%;
+}
+
+.chart-container::after::after {
+    content: "40";
+    position: relative;
+    left: 25%;
+}
+
+.chart-container::before::before {
+    content: "60";
+    position: relative;
+    left: 45%;
+}
+
+.chart-container::before::after {
+    content: "100";
+    position: relative;
+    left: 80%;
+}
+
+/* Adjust Bar Graph */
+.bar-graph-horizontal {
+    max-width: 100%;
+}
+
+.bar-graph-horizontal>div {
+    float: left;
+    margin-bottom: 8px;
+    width: 100%;
+}
+
+.bar-graph-horizontal .year {
+    float: left;
+    margin-top: 18px;
+    width: 40px;
+    text-align: center;
+    margin-right: 15px;
+    /* Increase this value to add more gap */
+}
+
+.bar-graph-horizontal .bar {
+    border-radius: 3px;
+    height: 55px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    width: 0;
+    animation-fill-mode: forwards;
+    /* Ensure the animation stays at 100% */
+    transition: width 1.2s;
+    /* Smooth transition */
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.bar-graph-one .bar::after {
+    color: #fff;
+    content: attr(data-percentage);
+    font-weight: 700;
+    position: absolute;
+    right: 16px;
+    top: 17px;
+}
+
+.bar-graph-one .bar-one .bar {
+    background-color: #0EDDA2;
+    animation: show-bar-one 1.2s 0.1s forwards;
+}
+
+.bar-graph-one .bar-two .bar {
+    background-color: #0EDDA2;
+    animation: show-bar-two 1.2s 0.2s forwards;
+}
+
+.bar-graph-one .bar-three .bar {
+    background-color: #0EDDA2;
+    animation: show-bar-three 1.2s 0.3s forwards;
+}
+
+.bar-graph-one .bar-four .bar {
+    background-color: #0EDDA2;
+    animation: show-bar-four 1.2s 0.4s forwards;
+}
+
+.bar-graph-one .bar-five .bar {
+    background-color: #0EDDA2;
+    animation: show-bar-five 1.2s 0.5s forwards;
+}
+
+/* Bar Graph Animations */
+@keyframes show-bar-one {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 20%;
+    }
+}
+
+@keyframes show-bar-two {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 30%;
+    }
+}
+
+@keyframes show-bar-three {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 40%;
+    }
+}
+
+@keyframes show-bar-four {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 60%;
+    }
+}
+
+@keyframes show-bar-five {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 80%;
+    }
+}
+
+@keyframes fade-in-text {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1024px) {
+    .header .heading-milestone {
+        font-size: 20px;
+    }
+
+    .footer .footer-box,
+    .footer-box-1 {
+        width: 45%;
+        padding: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    .row-style {
+        flex-direction: column;
+    }
+
+    .header .logo {
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    .header .heading-milestone {
+        font-size: 18px;
+    }
+
+    .footer .footer-box,
+    .footer-box-1 {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .footer .footer-details {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 480px) {
+    .header .heading-milestone {
+        font-size: 16px;
+    }
+
+    .footer .footer-box,
+    .footer-box-1 {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .footer-paragraph-1 {
+        font-size: 18px;
+    }
+}
+
+/* Responsive styles for mobile screens */
+@media (max-width: 768px) {
+    .esg-impact {
+        flex-direction: column;
+        /* padding: 20px 10px; */
+    }
+
+    .impact-details {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .impact-details .left-section,
+    .impact-details .right-section {
+        width: 100%;
+        /* Full width on mobile */
+        /* margin-bottom: 20px; Space between sections */
+    }
+
+    .impact-details .right-section {
+        margin-bottom: 0;
+        /* Remove margin for the last section */
+    }
+
+    .footer-box {
+        padding: 30px;
+    }
+
+    .footer-box-1 {
+        padding: 20px;
+    }
+}
+
+/* Responsive styles for mobile screens */
+@media (max-width: 768px) {
+    .chart {
+        width: 90%;
+    }
+
+    .chart-container {
+        padding: 30px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .chart {
+        width: 100%;
+    }
+
+    .chart-container {
+        padding: 20px 0;
+    }
+
+    .bar-graph-horizontal .bar {
+        height: 50px;
+        margin-left: 10px;
+    }
+
+    .bar-graph-one .bar::after {
+       padding: 5px;
+       right: 5px;
+    }
+
+    .bar-graph-horizontal .year {
+        width: 30px;
+        margin-left: -20px;
+    }
+
+    .heading-esg {
+        padding: 10px;
+        font-size: 22px;
+    }
+
+    .heading-lifeime {
+        padding: 10px;
+    }
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1024px) {
+    .chart {
+        width: 70%;
+    }
+}
+
+
+/* Specific media query for screens with width up to 375px */
+@media (min-width:240px) and (max-width: 375px) {
+    .chart {
+        width: 60%;
+        /* Ensuring full width on very small screens */
+    }
+
+    .chart-container {
+        padding: 10px 0;
+        /* Adjust padding for very small screens */
+    }
+
+    .bar-graph-horizontal .bar {
+        height: 50px;
+        padding: 10px;
+        margin-left: 20px;
+        /* Reduce bar height for better fit on very small screens */
+    }
+
+    .bar-graph-horizontal .year {
+        width: 25px;
+        margin-left: -30px;
+
+        /* Reduce width of year labels for better fit */
+    }
+
+    .impact-details {
+        margin-top: -10px;
+    }
+
+    .heading-esg {
+        font-size: 18px;
+    }
+
+
+    .bar-graph-one .bar::after {
+        right: 4px;
+        top: 10px;
+    }
+}
+
+@media  (max-width:320) {
+    .bar-graph-one .bar::after {
+        padding-left: -5px;
+    }
+
+
+}
+
+/* Responsive styling for laptop screens */
+@media (min-width: 1024px) and (max-width: 1440px) {
+
+    .col-styling-1,
+    .col-styling {
+        padding-left: 0;
+        padding-right: 0;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .col-styling-1 {
+        margin-left: 170px;
+        /* Adjust this value to control spacing */
+        /* line-height: 36px; */
+    }
+
+    .col-styling {
+        margin-right: 260px;
+        /* Adjust this value to control spacing */
+    }
+
+    /* Adjust spacing around images and text content */
+    .image-fluid {
+        margin-right: 10px;
+        /* Adjust the spacing as needed */
+        margin-bottom: 0;
+        /* Reduce the gap below the image */
+    }
+
+    .impact-item {
+        width: 20%;
+    }
+
+    .impact-item .row {
+        margin-right: 50px;
+    }
+}
